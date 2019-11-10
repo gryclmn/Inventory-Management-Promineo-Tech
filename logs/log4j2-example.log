@@ -396,3 +396,111 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
             --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
 2019-11-03 15:00:00.162  INFO Gary-C-Laptop
             --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2019-11-10 10:21:57.953  INFO Gary-C-Laptop
+            --- [ment.App.main()] c.p.i.App                                : Starting App on Gary-C-Laptop with PID 5572 (started by Gary in C:\Coleman\Development\Promineo Tech\3.Spring\Week 2\InventoryManagement)
+2019-11-10 10:21:57.999  INFO Gary-C-Laptop
+            --- [ment.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@28790a41: startup date [Sun Nov 10 10:21:57 MST 2019]; root of context hierarchy
+2019-11-10 10:21:58.768  INFO Gary-C-Laptop
+            --- [ment.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2019-11-10 10:21:59.236  INFO Gary-C-Laptop
+            --- [ment.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2019-11-10 10:21:59.427  INFO Gary-C-Laptop
+            --- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$71b20f35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-10 10:21:59.459  INFO Gary-C-Laptop
+            --- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-10 10:21:59.474  INFO Gary-C-Laptop
+            --- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-10 10:21:59.490  INFO Gary-C-Laptop
+            --- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-10 10:22:00.146  INFO Gary-C-Laptop
+            --- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2019-11-10 10:22:00.287  INFO Gary-C-Laptop
+            --- [ment.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2019-11-10 10:22:00.303  INFO Gary-C-Laptop
+            --- [ment.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2019-11-10 10:22:00.991  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-11-10 10:22:00.991  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2992 ms
+2019-11-10 10:22:01.711  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2019-11-10 10:22:01.711  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-11-10 10:22:01.711  INFO Gary-C-Laptop
+            --- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-11-10 10:22:01.996  INFO Gary-C-Laptop
+            --- [ment.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-11-10 10:22:02.011  INFO Gary-C-Laptop
+            --- [ment.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-10 10:22:02.152  INFO Gary-C-Laptop
+            --- [ment.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2019-11-10 10:22:02.152  INFO Gary-C-Laptop
+            --- [ment.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-11-10 10:22:02.152  INFO Gary-C-Laptop
+            --- [ment.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2019-11-10 10:22:02.339  INFO Gary-C-Laptop
+            --- [ment.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2019-11-10 10:22:03.357  INFO Gary-C-Laptop
+            --- [ment.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-10 10:22:03.577  INFO Gary-C-Laptop
+            --- [ment.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2019-11-10 10:22:03.992  INFO Gary-C-Laptop
+            --- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2019-11-10 10:22:04.824  INFO Gary-C-Laptop
+            --- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2019-11-10 10:22:05.409  INFO Gary-C-Laptop
+            --- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@28790a41: startup date [Sun Nov 10 10:21:57 MST 2019]; root of context hierarchy
+2019-11-10 10:22:05.518  INFO Gary-C-Laptop
+            --- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.getCustomer(java.lang.Long)
+2019-11-10 10:22:05.518  INFO Gary-C-Laptop
+            --- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.getCustomers()
+2019-11-10 10:22:05.534  INFO Gary-C-Laptop
+            --- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.updateCustomer(com.promineotech.inventoryManagement.entity.Customer,java.lang.Long)
+2019-11-10 10:22:05.534  INFO Gary-C-Laptop
+            --- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.deleteCustomer(java.lang.Long)
+2019-11-10 10:22:05.534  INFO Gary-C-Laptop
+            --- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.createCustomer(com.promineotech.inventoryManagement.entity.Customer)
+2019-11-10 10:22:05.534  INFO Gary-C-Laptop
+            --- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.OrderController.createCustomer(java.util.Set<java.lang.Long>,java.lang.Long)
+2019-11-10 10:22:05.534  INFO Gary-C-Laptop
+            --- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders/{orderId}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.OrderController.updateOrder(com.promineotech.inventoryManagement.entity.Order,java.lang.Long)
+2019-11-10 10:22:05.534  INFO Gary-C-Laptop
+            --- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.deleteProduct(java.lang.Long)
+2019-11-10 10:22:05.554  INFO Gary-C-Laptop
+            --- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.createProduct(com.promineotech.inventoryManagement.entity.Product)
+2019-11-10 10:22:05.557  INFO Gary-C-Laptop
+            --- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.updateProduct(com.promineotech.inventoryManagement.entity.Product,java.lang.Long)
+2019-11-10 10:22:05.560  INFO Gary-C-Laptop
+            --- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.getProducts()
+2019-11-10 10:22:05.566  INFO Gary-C-Laptop
+            --- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-11-10 10:22:05.568  INFO Gary-C-Laptop
+            --- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2019-11-10 10:22:05.598  INFO Gary-C-Laptop
+            --- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-10 10:22:05.598  INFO Gary-C-Laptop
+            --- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-10 10:22:05.645  INFO Gary-C-Laptop
+            --- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-10 10:22:05.832  INFO Gary-C-Laptop
+            --- [ment.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-11-10 10:22:05.864  INFO Gary-C-Laptop
+            --- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-10 10:22:05.879  INFO Gary-C-Laptop
+            --- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2019-11-10 10:22:05.895  INFO Gary-C-Laptop
+            --- [ment.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2019-11-10 10:22:05.926  INFO Gary-C-Laptop
+            --- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2019-11-10 10:22:05.926  INFO Gary-C-Laptop
+            --- [ment.App.main()] c.p.i.App                                : Started App in 8.224 seconds (JVM running for 24.191)
+2019-11-10 10:22:51.150  INFO Gary-C-Laptop
+            --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-11-10 10:22:51.153  INFO Gary-C-Laptop
+            --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2019-11-10 10:22:51.183  INFO Gary-C-Laptop
+            --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2019-11-10 10:47:24.107  WARN Gary-C-Laptop
+            --- [nio-8080-exec-3] o.s.w.s.PageNotFound                     : Request method 'GET' not supported
